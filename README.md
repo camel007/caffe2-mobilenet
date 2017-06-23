@@ -8,7 +8,9 @@ This is refer to [shicai/MobileNet-Caffe](https://github.com/shicai/MobileNet-Ca
 I provide a pretrained MobileNet model on cifar10, because of smaller image size than imagenet, I reduce some downsampling operation, and got 89.24% accuracy.  
 ![training loss](https://github.com/camel007/caffe2-mobilenet/blob/master/png/loss.png) ![test accuracy](https://github.com/camel007/caffe2-mobilenet/blob/master/png/accuracy.png)
 ## How to Use
-
+```bash
+python ./mobile_net_trainer.py --train_data [path-to-train-dataset] --test_data [path-to-test-dataset]
+```
 ## Citation
 ```bash
 @article{Howard2017mobilenet,
